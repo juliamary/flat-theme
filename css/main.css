@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
+
 .clearfix {
   *zoom: 1;
 }
@@ -12,4 +13,131 @@
 }
 .clearfix:after {
   clear: both;
+}
+
+/*envolturas*/
+.top-treehouse-ad {
+    padding: 16px 20px;
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 0 rgba(0,0,0,0.1),2px 2px 0 rgba(0,0,0,0.1),3px 3px 0 rgba(0,0,0,0.1),4px 4px 0 rgba(0,0,0,0.1);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    margin: 8% 0;
+}
+
+.wrapper{
+  padding: 56px 20px;
+  }
+
+/*<!-- well  caja color ligthblue-->*/
+
+.hero-image{
+    background-image:url(../images/slider/bg1.jpg);
+    background-size:cover;
+    background-color: #EEEEEE;
+    background-position-x: -67px;
+  }
+
+.hero-image  .text-hero{
+	width: 700px;
+       padding: 244px 0px;
+    color: white;
+}
+
+.hero-image .text-hero > h1{
+    letter-spacing: -1px;
+    line-height: 1;
+    font-size: 37px;
+}
+
+     /*Large desktop */
+    @media (min-width: 1200px) { ... }
+     
+     /*Portrait tablet to landscape and desktop */
+    @media (min-width: 768px) and (max-width: 979px) { ... }
+     
+     /*Landscape phone to portrait tablet */
+    @media (max-width: 767px) { ... }
+     
+    /* Landscape phones and down */
+   @media (max-width: 480px) { ... }
+
+/*pane-gren redes sociales*/
+
+.green{
+ background-color:rgb(55, 207, 111); 
+}
+
+
+.fa-circle{
+  color: #296A25;
+}
+
+/*our last proyet*/
+
+.pagination>li:last-child>a, .pagination>li:last-child>span ,
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+    margin-left: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    background-color: red;
+    color: white;
+}
+
+/*whAT OURS*/
+.color-red{
+background-color:red;
+}
+
+blockquote small {
+    color: white;
+}
+
+/*utility*/
+.no-margin{
+	margin: 0;
+} 
+.no-padding{
+	margin: 0;
+}
+.no-border{
+	border: 0;
+} 
+
+.text-white{
+  color:white;
+}
+
+.text-grey{
+  color:#BABABA;
+}
+
+.footer-bottom{
+  background-color: black;
+} 
+
+/*envolturas*/
+.top-treehouse-ad {
+    padding: 16px 20px;
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 0 rgba(0,0,0,0.1),2px 2px 0 rgba(0,0,0,0.1),3px 3px 0 rgba(0,0,0,0.1),4px 4px 0 rgba(0,0,0,0.1);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    margin: 8% 0;
+}
+
+.wrapper{
+  padding: 56px 20px;
+}
+/*<!-- well  caja color ligthblue-->*/
+
+/*footer colores*/
+.oscuro{
+ background-color: #424a5d;
 }

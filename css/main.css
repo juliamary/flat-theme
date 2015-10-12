@@ -134,3 +134,28 @@ blockquote small {
 
 
 
+
+/*cuerpo del contact us*/
+.green ul li{
+  list-style: none;
+  display: inline-block;
+}
+.green ul li a{
+  color: white;
+}
+textarea {
+  margin-top: 55px;
+}
+.mr{
+  margin: 20px 0;
+}
+.link a{
+  color: white;
+}
+.link{
+  margin-top: 40px;
+}
+.contact{
+  margin-top: 25px;
+  margin-bottom: 50px;
+}

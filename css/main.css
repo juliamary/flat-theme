@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
 
-
 .clearfix {
   *zoom: 1;
 }
@@ -96,6 +95,24 @@ blockquote small {
     color: white;
 }
 
+/*footer*/
+.footer-bottom{
+  background-color: black;
+} 
+/*menu-fotter*/
+.nav>li> .menu2 {
+   color:#BABABA;
+}
+
+.nav>li> .menu2:focus, 
+.nav>li> .menu2:hover {
+    background-color: transparent;
+}
+
+/*footer colores*/
+.footer-top{
+ background-color: #424a5d;
+}
 /*utility*/
 .no-margin{
 	margin: 0;
@@ -115,29 +132,5 @@ blockquote small {
   color:#BABABA;
 }
 
-.footer-bottom{
-  background-color: black;
-} 
 
-/*envolturas*/
-.top-treehouse-ad {
-    padding: 16px 20px;
-    display: block;
-    width: 100%;
-    height: auto;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 0 rgba(0,0,0,0.1),2px 2px 0 rgba(0,0,0,0.1),3px 3px 0 rgba(0,0,0,0.1),4px 4px 0 rgba(0,0,0,0.1);
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-    margin: 8% 0;
-}
 
-.wrapper{
-  padding: 56px 20px;
-}
-/*<!-- well  caja color ligthblue-->*/
-
-/*footer colores*/
-.oscuro{
- background-color: #424a5d;
-}

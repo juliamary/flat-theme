@@ -97,9 +97,9 @@ blockquote small {
 
 /*footer*/
 .footer-bottom{
-  background-color: black;
+  background-color: black;*/
 } 
-/*menu-fotter*/
+.menu-footer
 .nav>li> .menu2 {
    color:#BABABA;
 }
@@ -158,4 +158,50 @@ textarea {
 .contact{
   margin-top: 25px;
   margin-bottom: 50px;
+}
+
+
+
+/***************** SERVICES ******************/
+#services{
+  color: #34495e;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+
+.icon-md {
+ -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -o-transition: 500ms;
+    transition: 500ms;
+}
+.background-gris-fondo{
+    background-color: #F9F9F9;
+}
+.background-gris-fondo .primer{
+    margin: 5% 0%;
+}
+.background-gris-fond h4{
+    margin-top: 9%
+}
+.background-gris-fondo .row-img img{
+    margin-bottom: 12%
+}
+.background-fondo {
+    background-color: #FDFDFD;
+    padding: 5% 0%;
+}
+#formulario{
+    padding: 70px 0;
+}
+#formulario .message textarea{
+    margin-top: 11%;
+    padding-bottom: 50%; 
+}
+.form-inline .input-group input {
+  border-color: red;
+}
+.form-inline .input-group span{
+  background-color: red;
+  border-color: red;
 }

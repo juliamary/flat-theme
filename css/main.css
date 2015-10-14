@@ -33,24 +33,30 @@
 
 /*<!-- well  caja color ligthblue-->*/
 
-.hero-image{
-    background-image:url(../images/slider/bg1.jpg);
-    background-size:cover;
-    background-color: #EEEEEE;
-    background-position-x: -67px;
-  }
-
-.hero-image  .text-hero{
-	width: 700px;
-       padding: 244px 0px;
-    color: white;
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
 }
 
-.hero-image .text-hero > h1{
-    letter-spacing: -1px;
-    line-height: 1;
-    font-size: 37px;
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: #E7E6E6;
+    background-color: rgba(244, 243, 243, 0.47);
+    border-color: ;
 }
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #EDEBEB;
+    background-color: rgba(231, 231, 231, 0.33);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #F4F0F0;
+}
+
+
 
      /*Large desktop */
     @media (min-width: 1200px) { ... }
@@ -88,7 +94,7 @@
 
 /*whAT OURS*/
 .color-red{
-background-color:red;
+background-color:#C63939;
 }
 
 blockquote small {
@@ -98,7 +104,18 @@ blockquote small {
 /*footer*/
 .footer-bottom{
   background-color: black;*/
+}
+
+.footer-bottom > div.container > div.col-lg-6 > .menu-footer{
+  padding-top: 9px;
+}
+.footer-bottom > div.container > div.col-lg-6 > .menu-footer a{
+  color: white;
+  padding-left: 24px;
+
 } 
+
+
 /*.menu-footer
 .nav>li> .menu2 {
    color:#BABABA;
@@ -134,6 +151,7 @@ blockquote small {
 .bg-gray{
   background-color: gray;
 }
+/*esther*/
 .pd-l{
   padding-left: 4%;
 }

@@ -141,7 +141,9 @@ blockquote small {
   list-style: none;
   padding: 0;
 }
-
+.mr-2{
+  margin-right: 1%;
+}
 
 
 
@@ -170,7 +172,12 @@ textarea {
   margin-top: 25px;
   margin-bottom: 50px;
 }
-
+.size-1{
+  font-size: 1em;
+}
+.size-2{
+  font-size: 0.8em;
+}
 
 
 /***************** SERVICES ******************/
@@ -230,11 +237,11 @@ textarea {
 }
 .caption a{
   color: gray;
-  margin-left:1%;
+  margin-left:0.5%;
 }
 .caption i{
   color: gray;
-  margin-right: 0.5%;
+  margin-right: 1%;
 }
 .caption p{
   margin-top: 10px;
@@ -245,4 +252,8 @@ button a:hover{
 }
 button {
   margin-top: 5px;
+}
+/*blogiten*/
+.button{
+  display: inline-block;
 }

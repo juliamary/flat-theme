@@ -23,8 +23,10 @@
   </head>
   <body>
     <!-- Inserte código aqui -->
-    <nav class="navbar navbar-inverse no-margin">
+    <header>
+ <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
+    
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
@@ -36,6 +38,7 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Link</a></li>
         <li><a href="#">Home</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Services</a></li>
@@ -43,22 +46,59 @@
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact me</a></li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-->
+    </div><!--container> -->  
 </nav>
+</header>
+    
+        <div id="carousel-1" class="carousel slide" data-ride="carousel">
+            <!-- indicadores -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-1" data-slide-to="1"></li>
+                <li data-target="#carousel-1" data-slide-to="2"></li>
+            </ol>
+        <!-- contenedor de los slide -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="images/slider/bg1.jpg" class="img-responsive" width="100%">
+                <div class="carousel-caption">
+                   <h1 class="titulo animated infinite wobble">Powerful and Responsive Web Design</h1> 
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/slider/bg2.jpg" class="img-responsive">
+                <div class="carousel-caption">
+                    <h3>este es nuestro slider</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/slider/bg3.jpg" class="img-responsive">
+                <div class="carousel-caption">
+                    
+                    <img class="animated swing pull-right" src="images/slider/bg3.jpg" width="50%" height="200px">
+                    <h3 class="animated infinited swing"><b>Images-carousel</b></h3>
+                    <p><small>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</small></p>
+                </div>
+            </div>
+        </div><!-- aki termina los elementos de mi carousel -->
 
-     
-<div class="hero-image">
-  <div class="container">  
-    <div class="text-hero">    
-      <h1 class="">Powerful and Responsive Web Design</h1>
-    <span>Pellentesque habitant morbi tristique senectus et netus et malesuada famesac turpis egestas<span>
-    </div>
-  </div>
-</div>
-<!-- julia maria -->
-
-
+      <!-- controles -->
+      <a href="#carousel-1" class="left carousel-control" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-triangle-left" aria-hidden"true"></span>
+      <span class="sr-only">Anterior</span>
+      </a>
+      <a href="#carousel-1" class="right carousel-control" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-triangle-left" aria-hidden"true"></span>
+      <span class="sr-only">Siguiente</span>
+      </a>
+        </div>
 
 <section class="green text-white">
   <div class="wrapper container">

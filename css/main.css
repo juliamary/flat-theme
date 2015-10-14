@@ -33,9 +33,11 @@
 
 /*<!-- well  caja color ligthblue-->*/
 
+/*navbar-nav*/
 .navbar-default {
     background-color: transparent;
     border-color: transparent;
+    width: 100%;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -56,7 +58,22 @@
     color: #F4F0F0;
 }
 
+/*carousel*/
+.carousel > .carousel-inner > .item > .move-top{
+  padding-bottom:150px ;
+}
 
+.carousel-inner>.item {
+    transition: .15s ease-in-out left;
+}
+
+/*medias query*/
+@media (max-width: 1000px) {
+    .navbar-default{
+        height: 55px;
+        background:rgba(51, 51, 51, 0.46);;
+    }
+}
 
      /*Large desktop */
     @media (min-width: 1200px) { ... }
@@ -70,15 +87,9 @@
     /* Landscape phones and down */
    @media (max-width: 480px) { ... }
 
-/*pane-gren redes sociales*/
-
-.green{
+/*pannel-gren redes sociales*/
+.green-pannel{
  background-color:rgb(55, 207, 111); 
-}
-
-
-.fa-circle{
-  color: #296A25;
 }
 
 /*our last proyet*/
@@ -102,47 +113,51 @@ blockquote small {
 }
 
 /*footer*/
-.footer-bottom{
-  background-color: black;*/
-}
-
-.footer-bottom > div.container > div.col-lg-6 > .menu-footer{
-  padding-top: 9px;
-}
-.footer-bottom > div.container > div.col-lg-6 > .menu-footer a{
-  color: white;
-  padding-left: 24px;
-
-} 
-
-
-/*.menu-footer
-.nav>li> .menu2 {
-   color:#BABABA;
-}
-
-.nav>li> .menu2:focus, 
-.nav>li> .menu2:hover {
-    background-color: transparent;
-}*/
-
 /*footer colores*/
 .footer-top{
  background-color: #424a5d;
 }
+.footer-bottom{
+  background-color: black;
+}
+
+.footer-bottom > div.container > div.col-lg-6 > .menu-footer{
+  padding-top: 9px;
+  padding-left: 190px;
+}
+.footer-bottom > div.container > div.col-lg-6 > .menu-footer a{
+  color: white;
+  padding-left: 24px;
+  float: left;
+} 
+
+/*about-us*/
+.progress {
+    height: 41px;
+}
 /*utility*/
 .no-margin{
-	margin: 0;
+  margin: 0;
 } 
 .no-padding{
-	padding: 0;
+  padding: 0;
 }
 .no-border{
-	border: 0;
+  border: 0;
 } 
+
+/*colores a utilizar*/
 
 .text-white{
   color:white;
+}
+
+.plomo{
+  color: grey;
+}
+
+.green-oscuro{
+  color: green;
 }
 
 .text-grey{
@@ -150,6 +165,9 @@ blockquote small {
 }
 .bg-gray{
   background-color: gray;
+}
+.effect-font{
+  text-shadow: 4px 3px 0px #3B9540, 9px 8px 0px rgba(0, 0, 0, 0.15);
 }
 /*esther*/
 .pd-l{
@@ -162,6 +180,7 @@ blockquote small {
 .mr-2{
   margin-right: 1%;
 }
+
 
 
 

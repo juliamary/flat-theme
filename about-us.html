@@ -10,6 +10,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="http://lipis.github.io/bootstrap-social/" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -21,16 +22,53 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 <body>
-    <!-- Inserte código aqui -->
-<<<<<<< HEAD
-    <div class="animated">
-        <img class="bounce"src="images/ads/ad1.png">
-    </div>
 
-=======
-<div class="container">
-    <div class="about">
-        <div class="col-lg-6">
+ <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Link</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact-us.html">Contact me</a></li>
+            </ul>
+          </div><!--container> -->  
+        </nav>
+      </header>
+
+    <section class="green-pannel">
+      <div class="wrapper container text-white">
+        <div class="row mr">
+          <div class="col-xs-7">
+            <h2>About Us</h2>
+              <p>Pellentesque habitan morbi tristique senectus et netus et malesuada</p>
+          </div>
+          <div class="col-xs-5 text-right link">
+            <a href="#">Home</a>
+            <a href="#">/ Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Inserte código aqui -->
+    <section class="about-us">
+      <div class="wrapper container">
+        <div class="about">
+          <div class="col-lg-6">
             <h2>What we are</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -38,38 +76,197 @@
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>  
-        <div class="col-lg-6">
-          <h2>Our Skills</h2>
+          </div>  
+          <div class="col-lg-6">
+            <h2>Our Skills</h2>
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+                <span class="sr-only">40% Complete (success)</span><h4>HTML Y CSS</h4>
+                </div>
+              </div>
+              <div class="progress">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                  <span class="sr-only">20% Complete</span><h4>worpress</h4>
+                </div>
+              </div>
             <div class="progress">
-              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                <span class="sr-only">40% Complete (success)</span>HTML Y CSS
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                <span class="sr-only">60% Complete ()</span><h4>joomla</h4>
               </div>
             </div>
             <div class="progress">
-              <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-                <span class="sr-only">20% Complete</span>
+              <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                <span class="sr-only">60% Complete (warning)</span><h4>drupal</h4>
               </div>
             </div>
             <div class="progress">
-    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-    60%
-  </div>
-</div>
-<div class="progress">
-  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-    <span class="sr-only">60% Complete (warning)</span>
-  </div>
-</div>
-<div class="progress">
-  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-    <span class="sr-only">80% Complete (danger)</span>
-  </div>
-</div>
-        </div>        
+              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                <span class="sr-only">80% Complete (danger)</span><h4>PHP</h4>
+              </div>
+            </div>
+          </div>        
+        </div>
+      </div><!-- container-wrapper -->
+    </section>
+
+<section>
+  <div class="wrapper container text-center">
+    <h2>Mett The Team</h2>
+      <div class="col-lg-3">
+        <figure>
+          <img class="img-responsive img-thumbnail img-circle"src="images/team-member.jpg">
+        </figure>
+        <div>
+          <h5>David J. Robinson</h5>
+            <span class="text-muted">senior vice presidente</span><br>
+          <p>morbi acussan ipsum velit. Nam telliusa odio tinctgrd auctor</p>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <figure>
+          <img class="img-responsive img-thumbnail img-circle"src="images/team-member.jpg">
+        </figure>
+          <div>
+            <h5>David J. Robinson</h5>
+              <span class="text-muted">senior vice presidente</span><br>
+            <p>morbi acussan ipsum velit. Nam telliusa odio tinctgrd auctor</p>
+          </div>
+        </div>
+      <div class="col-lg-3">
+        <figure>
+          <img class="img-responsive img-thumbnail img-circle"src="images/team-member.jpg">
+        </figure>
+        <div>
+          <h5>David J. Robinson</h5>
+            <span class="text-muted">senior vice presidente</span><br>
+            <p>morbi acussan ipsum velit. Nam telliusa odio tinctgrd auctor</p>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <figure>
+          <img class="img-responsive img-thumbnail img-circle"src="images/team-member.jpg">
+        </figure>
+        <div>
+          <h5>David J. Robinson</h5>
+            <span class="text-muted">senior vice presidente</span><br>
+          <p>morbi acussan ipsum velit. Nam telliusa odio tinctgrd auctor</p>
+        </div>
+      </div>
     </div>
-</div>
->>>>>>> 5c9d21ff9ae9dc880bce64ae0e8669485f29e34d
+  </section>
+
+
+<footer>  
+  <div class="footer-top oscuro text-grey">  
+    <div class="wrapper container">
+      <div class="col-xs-12 col-lg-3">
+        <h4>About Us</h4>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore.
+          <br>
+            <span>et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation.</span>
+      </div>
+      <div class="col-xs-12 col-lg-3">
+        <h4>About Us</h4>
+          <span>> CompanyOverview</span><br>
+            <span>> Ours Services</span><br>
+              <span>> Ours Awesome Partners</span><br>
+                <span>> Meet The Team</span><br>
+                  <span>> Freklenty Askep</span><br> 
+                <span>> Contact Us</span><br>
+              <span>> Privacy Policy</span><br>
+            <span>> Terms of use</span><br>
+          <span>> Copyrigth</span><br>
+    </div>
+    <div class="col-xs-12 col-lg-3">
+      <h4>About Us</h4>
+        <div class="row">
+          <div class="col-xs-4 col-lg-4">
+            <img src="images/blog/thumb1.jpg" width="100%">
+          </div>
+          <div class="col-xs-8 col-lg-8">
+            <p class="hidden-xs">et dolore magna aliqua. Ut enim ad
+              <small>Julia maria</small>
+            <br></p>
+          <p class="visible-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+            eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. 
+          </p>
+            <small>Julia maria</small>
+          </div> 
+        </div><br>
+        <div class="row">
+          <div class="col-xs-4 col-lg-4">
+            <img src="images/blog/thumb1.jpg" width="100%">
+          </div>
+          <div class="col-xs-8 col-sm-8">
+            <p class="hidden-xs">et dolore magna aliqua. Ut enim ad 
+              <small>Julia maria</small>
+              <br></p>
+            <p class="visible-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+              eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+            </p>
+            <small>Julia maria</small>
+          </div> 
+        </div><br>
+        <div class="row">
+          <div class="col-xs-4 col-sm-4">
+            <img src="images/blog/thumb1.jpg" width="100%">
+          </div>
+          <div class="col-xs-8 col-sm-8">
+            <p class="hidden-xs">et dolore magna aliqua. Ut enim ad   
+              <small>Julia maria</small>
+              <br></p>
+            <p class="visible-xs visible-sm visible-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat.
+            </p>
+            <small>Julia maria</small>
+          </div> 
+        </div>
+    </div>
+    
+    <div class="col-lg-3">
+      <address>
+        <h4>Address</h4>
+            Avenida Principal 123<br>
+            Ciudad, Provincia 00000<br>
+        <abbr title="Phone">P:</abbr> (123) 456-7890
+      </address>
+      <address>
+        <h4>Newsletter</h4>
+          <div class="input-group margin-bottom-sm">
+            <span class="color-red input-group-addon">go!</span>
+            <input class="form-control" type="text" placeholder="Email address">
+          </div>
+      </address>
+    </div>
+   </div><!-- wrapper container -->
+ </div>
+  <div class="footer-bottom text-grey">
+    <div class="container">
+      <div class="col-xs-12 col-lg-6">
+        <h5><p>&copy; 2013 ShapeBootstrap . All Rigth Reserved</p></h5>
+      </div>
+    <div class="hidden-xs col-lg-6">
+      <div class="menu-footer text-white">
+        <a class="" href="index.html">Home</a>
+        <a class="" href="about-us">About Us</a>
+        <a class="" href="portfolio">Faq</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a id="gototop" class="gototop" href="#"><i class="icon-chevron-up"></i></a>
+        </div>
+      </div>
+    </div>   <!--  container   -->  
+  </div>    <!-- footer-bottom -->
+</footer> 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
